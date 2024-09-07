@@ -1,4 +1,4 @@
-1. 월별 주문 회원 수, 주문 수, 주문 금액, 할인 금액, 배송비
+# 1. 월별 주문 회원 수, 주문 수, 주문 금액, 할인 금액, 배송비
   1)mysql
      SELECT 
     DATE_FORMAT(o.order_date, '%Y-%m') AS month,
